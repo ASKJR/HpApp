@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="125dp"
+        android:text="Harry Potter API"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonHpCharacterById"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2A623D"
+        android:onClick="redirectTo"
+        android:paddingBottom="6dp"
+        android:text="Listar um personagem específico" />
+    <Button
+        android:id="@+id/buttonHpStaff"
+        android:layout_width="match_parent"
+        android:backgroundTint="#2A623D"
+        android:layout_height="wrap_content"
+        android:text="Listar os professores da escola"
+        android:onClick="redirectTo"/>
+    <Button
+        android:id="@+id/buttonHpCharactersByHouse"
+        android:backgroundTint="#2A623D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar os estudantes de uma casa"
+        android:onClick="redirectTo"/>
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:onClick="redirectTo"
+        android:text="Sair" />
+</LinearLayout>
