@@ -8,6 +8,6 @@ interface HpApi {
     suspend fun getCharacterById(@Path("id") id: String): List<HpCharacter>
     @GET("characters/staff")
     suspend fun getStaff(): List<HpCharacter>
-    @GET("house/{house}")
+    @GET("characters/house/{house}")
     suspend fun getCharactersByHouse(@Path("house") house: String): List<HpCharacter>
 }
