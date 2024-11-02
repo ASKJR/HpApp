@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="236dp"
             android:onClick="getHpCharactersByHouse"
-            android:text="Listar estudantes de um casa"
+            android:text="Listar estudantes de uma casa"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/rgHouses" />
